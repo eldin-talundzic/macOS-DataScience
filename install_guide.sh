@@ -1,6 +1,9 @@
 ####updated 4/5/22 @ET 
 #####OSX Monterey 
- 
+
+##Use anaconda to get Data Sci environment set up, avoid installing locally.  
+
+
 ##Take a look at:http://www.benjack.io/2016/01/02/el-capitan-biocomputing.html
 ##http://sourabhbajaj.com/mac-setup/Python/numpy.html
 
@@ -15,9 +18,7 @@ xcode-select --install
 ## SEE: https://opensource.com/article/19/5/python-3-default-mac
 	
 ##Visit https://brew.sh if above is outdated
-### Use homebrew to install: 
-
-brew install gcc 
+### Use homebrew to install packages.  
 	
 brew install pyenv 
 pyenv install 3.10.1 	# change to latest version at time of set up 
@@ -35,9 +36,6 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ##See: https://clay-atlas.com/us/blog/2021/09/04/mac-os-en-install-vim-support-python3/ 
 ##To isntall vim with python + support
-
-brew install scipy
-brew install numpy
 
 ##2 Jupyter notebook:http://jupyter.org/install.html
 
@@ -68,7 +66,7 @@ cd ./ssh
 
 ##READ BEFOREHAND: https://pawelgrzybek.com/multiple-ssh-keys-for-multiple-bitbucket-github-accounts/
 	
-##BITBUCKET  
+##BITBUCKET (depracated, have remote copy but nightmare to install and set up SSH; so do only github)  
     
 ##Create a public and private keys; type ed25519 email "eldin.talundzic@icloud.com" 
 ssh-keygen -t ed25519 -C "eldin.talundzic@icloud.com" 
