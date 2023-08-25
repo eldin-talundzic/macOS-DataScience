@@ -422,9 +422,53 @@ alias ll='ls -lG'
 
 ```
 
-
 ------
 </details>
+
+## 9. Customize Terminal Profile on macOS 
+
+
+### Installing Zenburn Terminal Profile on macOS
+
+The Zenburn color scheme provides a soothing and eye-friendly color palette for your terminal. To use the Zenburn color scheme in your macOS terminal, follow these steps:
+
+**Note:** Before proceeding, make sure you have a terminal application that supports importing and using color profiles. The following steps are based on the default Terminal app in macOS.
+
+1. **Download the Zenburn Color Profile:**
+   - Visit the Zenburn color profile [repository](https://github.com/bdesham/zenburn-terminal) or download from my [Zenburn](https://github.com/eldin-talundzic/myosx_setup/tree/main/Zenburn) directory. 
+   - Download the `Zenburn.terminal` file to your computer. Make sure you know the location where the file is saved.
+
+2. **Open Terminal Preferences:**
+   - Launch the Terminal app on your macOS system.
+   - In the menu bar, click on "Terminal" and select "Preferences."
+
+3. **Access the Profiles Tab:**
+   - In the Preferences window, navigate to the "Profiles" tab.
+
+4. **Import the Zenburn Profile:**
+   - At the bottom-left corner of the "Profiles" tab, you'll find a small '+' (plus) button. Click on it.
+
+5. **Select Zenburn Profile:**
+   - A file dialog will open. Browse to the location where you saved the `Zenburn.terminal` file, select it, and click the "Open" button.
+
+6. **Apply Zenburn Profile:**
+   - You should now see "Zenburn" listed among your terminal profiles on the left-hand side.
+   - Select the "Zenburn" profile to highlight it.
+
+7. **Set as Default (Optional):**
+   - If you want the Zenburn profile to be the default for new terminal windows, click on the "Default" button at the bottom of the profiles list.
+
+8. **Close Preferences:**
+   - Once you've imported the Zenburn profile and made any desired changes, you can close the Preferences window.
+
+9. **Restart Terminal:**
+   - Close any open terminal windows and then reopen Terminal to apply the Zenburn color scheme.
+
+Your terminal windows should now feature the Zenburn color scheme, providing a more soothing and comfortable environment for your command-line activities.
+
+---
+
+Feel free to customize and adapt these instructions to fit your README format and any specific details about the source of the Zenburn color profile. Make sure to provide clear and concise directions so that users can easily follow the steps to install the profile.
 
 
 ## Conclusion
@@ -438,4 +482,7 @@ Feel free to adapt this setup to your specific needs and preferences.
 **Note:** Make sure to carefully read and understand the installation commands before executing them. Also, keep in mind that software and package versions may have changed since the time of writing. DO NOT USE `sudo` _super user_ commands to install anything. i
 
 Tread cautiously with `Ruby`. It is troublesome with MacOS as it can cause unexpected issues. Apple provides an older version baked into the OS that is protected (for good reason). Hopefully in future versions Apple will remove it altogether allowing for easier managment of `Ruby`. 
+
+
+
 
