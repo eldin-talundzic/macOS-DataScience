@@ -7,11 +7,11 @@
 ----
 >#### Active Activity ####
 
-- [ ] Update doc to reflect latest osx set up 
 - [ ] Make a install file to set up a new mac  
 
 >#### Completed Activity ✓ ####
 
+- [x] Update doc to reflect latest osx set up 
 ------
 </details>
 
@@ -428,7 +428,8 @@ alias ll='ls -lG'
 ## 9. Customize Terminal Profile on macOS 
 
 
-### Installing Zenburn Terminal Profile on macOS
+<details>
+  <summary><strong>Installing Zenburn Terminal Profile</strong></summary>
 
 The Zenburn color scheme provides a soothing and eye-friendly color palette for your terminal. To use the Zenburn color scheme in your macOS terminal, follow these steps:
 
@@ -466,9 +467,8 @@ The Zenburn color scheme provides a soothing and eye-friendly color palette for 
 
 Your terminal windows should now feature the Zenburn color scheme, providing a more soothing and comfortable environment for your command-line activities.
 
----
-
-Feel free to customize and adapt these instructions to fit your README format and any specific details about the source of the Zenburn color profile. Make sure to provide clear and concise directions so that users can easily follow the steps to install the profile.
+------
+</details>
 
 
 ## Conclusion
