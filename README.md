@@ -57,7 +57,7 @@ brew install python3
 Install useful Python libraries:
 
 ```bash
-pip install numpy scipy pandas biopython jupyter
+python3 -m pip install numpy scipy pandas biopython jupyter
 ```
 
 ## 5. Install R
