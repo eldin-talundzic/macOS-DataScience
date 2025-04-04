@@ -478,7 +478,7 @@ Feel free to adapt this setup to your specific needs and preferences.
 
 ---
 
-**Note:** Make sure to carefully read and understand the installation commands before executing them. Also, keep in mind that software and package versions may have changed since the time of writing. DO NOT USE `sudo` _super user_ commands to install anything. i
+**Note:** Make sure to carefully read and understand the installation commands before executing them. Also, keep in mind that software and package versions may have changed since the time of writing. DO NOT USE `sudo` _super user_ commands to install anything. 
 
 Tread cautiously with `Ruby`. It is troublesome with MacOS as it can cause unexpected issues. Apple provides an older version baked into the OS that is protected (for good reason). Hopefully in future versions Apple will remove it altogether allowing for easier managment of `Ruby`. 
 
